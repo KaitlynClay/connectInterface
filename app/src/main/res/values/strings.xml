@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">connectInterface</string>
+    <string name="textName">Kaitlyn Clay</string>
+    <string name="btnviewprofile">View Profile</string>
+    <string name="profileinfo">Growing up on a working farm instilled in me the virtues of hard work, resilience, and a profound appreciation for the land.\nAs I ventured into the world of coding, I discovered the power of technology to enhance and modernize age-old agricultural practices. \nMy journey is a harmonious blend of rural traditions and digital innovation, where I strive to bridge the gap between the wisdom of the past and the endless possibilities of the future.</string>
+</resources>

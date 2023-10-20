@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idName"
+        android:layout_width="167dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="122dp"
+        android:text="@string/textName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/idimgleaf"
+        android:layout_width="334dp"
+        android:layout_height="345dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idName"
+        app:srcCompat="@drawable/leafnlight" />
+
+    <Button
+        android:id="@+id/idbtnviewprofile"
+        android:layout_width="143dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/btnviewprofile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idimgleaf" />
+</androidx.constraintlayout.widget.ConstraintLayout>
